@@ -9,11 +9,11 @@
 
 <body>
     <h1>
-        This is an Example Page for Lineer Regression
+        This is an Example Page for Linear Regression
         </h1>
     <p>
-        Lineer Regression is a method to find an optimum line to a cloud of points appearingly in a lineer relation ship.<br><br>
-        <i>Lineer Regresyon aralarında doğrusal bir ilişki olduğu görülen bir nokta bulutuna en uygun doğruyu bulma yöntemidir.</i>
+        Linear Regression is a method to find an optimum line to a cloud of points appearingly in a liner relation ship.<br><br>
+        <i>Linear Regresyon aralarında doğrusal bir ilişki olduğu görülen bir nokta bulutuna en uygun doğruyu bulma yöntemidir.</i>
         </p>
     <div clas="mainBlock">
         <table id="inputTable">
@@ -134,7 +134,7 @@
     <p class="mathEq">f(x) = w * x + b </p>
     </div>
     <button id="lineDrawButton" type="button" onclick="line.setDrawing()">draw line manually</button>
-    <button id="lineRegression" type="button" onclick="line.startRegression()">calculate lineer regression</button>
+    <button id="lineRegression" type="button" onclick="line.startRegression()">calculate linear regression</button>
     <p id="differantials"></p>
     <br>
     <p>We are looking for the optimum line. Let the equation of the line be as w.x + b. So we are to find the best values of w and b. But first we should find a way to calculate how loose the line is. Square loss method is ideal for this.</p>
@@ -142,7 +142,7 @@
     <p><i>hata fonksiyonu: kayıp = (denklemden elde edilen sonuç - gerçek değer)^2  şeklinde bulunur. Farkın karesinin alınması hatanın negatif çıkmaması içindir. Her bir girdi için hata hesaplanıp toplamı alınarak girdi sayısına bölündüğünde buna "mean squared loss" denir: karesi alınmış ortalama hata. </i></p>
     <p> loss = (1/n) * &#8721 (f(xi) - yi)^2 </p>
     <br>
-        <script type="text/javascript" src="lineerRegression.js"></script>
+        <script type="text/javascript" src="linearRegression.js"></script>
     
     </body>
 
